@@ -16,6 +16,7 @@ public class Customer {
     public String getName() {
         return name;
     }
+
     public String getPhone() {
         return phone;
     }
