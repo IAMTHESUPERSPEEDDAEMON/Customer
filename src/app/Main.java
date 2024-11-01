@@ -5,13 +5,13 @@ public class Main {
 
     public static void main(String[] args) {
         Customer customer = getCustomer(getData());
-        String output = "Customer: " + customer.getName() +
+        String output = "Customer: " + customer.getName() + // repaired
                 ", phone " + customer.getPhone();
         getOutput(output);
     }
 
     public static String[] getData() {
-        return new String[]{"Albert", "+380123456789"};
+        return new String[]{"Albert", "+380123456789"}; // add parameters
     }
 
     public static Customer getCustomer(String[] data) {
